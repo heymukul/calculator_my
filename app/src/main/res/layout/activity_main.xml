@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="textEnd"
         android:layout_marginEnd="12dp"
-        android:textSize="28dp"
+        android:textSize="28sp"
         android:text=""
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/Result_tv"
@@ -25,8 +25,8 @@
         android:layout_height="wrap_content"
         android:textAlignment="textEnd"
         android:layout_marginEnd="12dp"
-        android:textSize="28dp"
-        android:text="=9000"
+        android:textSize="28sp"
+        android:text=""
         android:visibility="gone"
         android:textColor="#7F7272"
         app:layout_constraintBottom_toTopOf="@+id/line"
@@ -60,7 +60,7 @@
                 android:id="@+id/btn_clear"
                 style="@style/operaterButton"
                 android:onClick="OnClearClick"
-                android:text="C" />
+                android:text="@string/c" />
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_back"
                 style="@style/operaterButton"
@@ -79,7 +79,7 @@
                 android:id="@+id/btn_divide"
                 style="@style/operaterButton"
                 android:onClick="OnOperaterClick"
-                android:text="/" />
+                android:text="@string/Divide" />
         </LinearLayout>  <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
